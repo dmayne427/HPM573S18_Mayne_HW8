@@ -58,5 +58,5 @@ def print_comparative_outcomes(sim_output_no_drug, sim_output_with_drug):
         deci=1,
         form=Format.FormatNumber.PERCENTAGE
     )
-    print("Average percentage increase in survival time and {:.{prec}%} confidence interval:".format(1 - P.ALPHA, prec=0),
+    print("Average percentage increase in casino rewards and {:.{prec}%} confidence interval:".format(1 - P.ALPHA, prec=0),
           estimate_CI)
